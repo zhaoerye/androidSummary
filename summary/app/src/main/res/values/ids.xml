@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="toolbar"/>
+    <item type="id" name="userToolbar"/>
+    <item type="id" name="tvTime"/>
+    <item type="id" name="tvDate"/>
+    <item type="id" name="tvWeek"/>
+    <item type="id" name="tvNetStatus"/>
+    <item type="id" name="tvLocalDoc"/>
+    <item type="id" name="tvTitle"/>
+    <item type="id" name="tvLoginName"/>
+    <item type="id" name="swipe_container"/>
+    <item type="id" name="ibBack"/>
+</resources>

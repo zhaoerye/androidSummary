@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="menuBackground" format="reference" />
+    <attr name="buttonBackground" format="reference" />
+
+    <declare-styleable name="CheckBoxList">
+        <attr name="items" format="string" />
+        <attr name="values" format="string" />
+        <attr name="multiple" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="IndicatorItem">
+        <attr name="indicatorColor" format="reference|color" />
+        <attr name="indicatorTextColor" format="reference|color" />
+        <attr name="indicatorChecked" format="boolean" />
+        <attr name="indicatorTextSize" format="dimension" />
+        <attr name="indicatorText" format="string" />
+        <attr name="indicatorRingWidth" format="dimension" />
+        <attr name="indicatorInnerCircle" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="DateTextView">
+        <attr name="timeType">
+            <enum name="date" value="0" />
+            <enum name="time" value="1" />
+            <enum name="both" value="2" />
+        </attr>
+        <attr name="dateFormat">
+            <enum name="chineseDate" value="0" />
+            <enum name="englishDate" value="1" />
+        </attr>
+        <attr name="now" format="boolean" />
+        <attr name="style">
+            <enum name="system" value="0" />
+            <enum name="custom" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="HisUserEditText">
+        <attr name="job" format="string" />
+        <attr name="dept" format="string" />
+        <attr name="saveType">
+            <enum name="name" value="0" />
+            <enum name="id" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="AutoBindDataEditText">
+        <attr name="report_item_name" format="string" />
+        <attr name="test_cause" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="AutoWrapLayout">
+        <attr name="horizontalSpace" format="dimension|reference" />
+        <attr name="vertivalSpace" format="dimension|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="ChoiceEditText">
+        <attr name="entries" format="reference" />
+        <attr name="multipleChoice" format="boolean" />
+        <attr name="enabledEdit" format="boolean" />
+        <attr name="dict" format="string" />
+    </declare-styleable>
+</resources>
